@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glamour Nails | Home</title>
+  <title>Glamour Nails and Eyelashes | Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
     <nav class="navbar">
-      <h1 class="logo">Glamour Nails</h1>
+      <h1 class="logo">Glamour Nails and Eyelashes</h1>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#services">Services</a></li>
@@ -35,17 +35,22 @@
       <div class="card">
         <h3>Manicure</h3>
         <p>Get clean, trimmed, and polished nails that shine with elegance.</p>
-        <span class="price">Starting from 150 ETB</span>
+        <span class="price">Starting from 1350 ETB</span>
       </div>
       <div class="card">
         <h3>Pedicure</h3>
         <p>Relax and treat your feet to the care they deserve.</p>
-        <span class="price">Starting from 200 ETB</span>
+        <span class="price">Starting from 700 ETB</span>
+      </div>
+       <div class="card">
+        <h3>Eyelash Extension</h3>
+        <p>Who said girls can't have better eyelashes come and het yours dear.</p>
+        <span class="price">Starting from 1700 ETB</span>
       </div>
       <div class="card">
         <h3>Acrylic Nails</h3>
         <p>Long-lasting and glamorous acrylic nails for every occasion.</p>
-        <span class="price">Starting from 300 ETB</span>
+        <span class="price">Starting from 1800 ETB</span>
       </div>
     </div>
   </section>
@@ -58,38 +63,60 @@
       <img src="images/nail4.jpg"alt="Nail Design 4">
       <img src="images/nail5.jpg" alt="Nail Design 5">
       <img src="images/nail6.jpg" alt="Nail Design 6">
+      <img src="images/nail7.jpg" alt="Nail Design 7">
+      <img src="images/nail8.jpg" alt="Nail Design 8">
+      <img src="images/nail9.jpg" alt="Nail Design 9">
+      <img src="images/nail10.jpg" alt="Nail Design 10">
+      <img src="images/nail11.jpg" alt="Nail Design 11">
+      <img src="images/nail12.jpg" alt="Nail Design 12">
+      <img src="images/nail13.jpg" alt="Nail Design 13">
+      <img src="images/nail14.jpg" alt="Nail Design 14">
+      
+      <img src="images/nail16.jpg" alt="Nail Design 16">
+      
+      <img src="images/nail18.jpg" alt="Nail Design 18">
+      <img src="images/nail19.jpg" alt="Nail Design 19">
+      <img src="images/nail20.jpg" alt="Nail Design 20">
     </div>
   </section>
   
-  <section class="booking" id="booking">
-    <h2 class="section-title">Book an Appointment</h2>
-    <form class="booking-form" action="#" method="post">
-      <div class="form-group">
-        <input type="text" name="name" placeholder="Your Full Name" required>
-      </div>
-      <div class="form-group">
-        <input type="tel" name="phone" placeholder="Phone Number" required>
-      </div>
-      <div class="form-group">
-        <input type="email" name="email" placeholder="Email Address">
-      </div>
-      <div class="form-group">
-        <select name="service" required>
-          <option value="">Select a Service</option>
-          <option value="manicure">Manicure</option>
-          <option value="pedicure">Pedicure</option>
-          <option value="acrylic">Acrylic Nails</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <input type="date" name="date" required>
-      </div>
-      <div class="form-group">
-        <textarea name="note" placeholder="Additional Notes (Optional)"></textarea>
-      </div>
-      <button type="submit" class="btn">Submit Booking</button>
-    </form>
-  </section>
+  <section id="booking" class="booking-form">
+  <h2>Book an Appointment</h2>
+  <form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <input type="email" name="email" placeholder="Email (optional)">
+    
+    <!-- Branch Selection -->
+    <select name="branch" required>
+      <option value="">Select Branch</option>
+      <option value="bole">Bole Morning Star Mall </option>
+      <option value="gerji">Gerji, Alfoz Plaza</option>
+      <option value="sumit">Sumit, Fiyelbet</option>
+      <option value="bisreate">Bisreate gebriel, Tsemex Apartment</option>
+      <option value="reality">Bole, Reality Plaza</option>
+      <option value="4kilo">4 kilo, Ambassader Mall</option>
+      <option value="adama">Adama, Nafran Mall</option>
+      <option value="lebu">Lebu, Mati Mall</option>
+    </select>
+    
+    <!-- Service Selection -->
+    <select name="service" required>
+      <option value="">Select a Service</option>
+      <option value="nails">Nail Service</option>
+      <option value="eyelash">Eyelash Extension</option>
+      <option value="pedicure">Pedicure</option>
+    </select>
+
+    <!-- Date and Time -->
+    <input type="date" name="appointment-date" required>
+    <input type="time" name="appointment-time" required>
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+
+
 
   <section class="contact" id="contact">
     <h2 class="section-title">Contact Us</h2>
@@ -97,12 +124,13 @@
   
     <div class="contact-info">
       <p><strong>Phone:</strong> +251 90 200 0011</p>
-      <p><strong>Email:</strong> glamournailaddis@yahoo.com</p>
-      <p><strong>Addresses:</strong> 1.Bole, Morning Star Mall<br> 2.Gerji,Alfoz plaza <br> 3.Sumit, Fiyelbet <br> 4.Bisrate gebriel,Tsemex Apartment<br> 5.Bole, reality plaza <br> 6. 4Kilo, Ambasader Mall <br>7. Adama, Nafran Mall, Addis Ababa, Ethiopia</p>
+      <p><strong>Addresses:</strong> 1.Bole, Morning Star Mall +251-902050607<br> 2.Gerji,Alfoz plaza +251-902000011 <br> 3.Sumit, Fiyelbet +251-908222000 <br> 4.Bisrate gebriel,Tsemex Apartment +251-908333000<br> 5.Bole, reality plaza +251-940888000 <br> 6. 4Kilo, Ambasader Mall +251-942888000 <br>7. Adama, Nafran Mall +251-943888000<br> 8. Lebu, Mati Mall +251-944888000</p>
       <div class="social-icons">
         <a href="https://www.instagram.com/glamournail_addis1/"><img src="images/instagram icon.jpg" alt="Instagram" /></a>
         <a href="https://web.facebook.com/GlamourEthiopia/?_rdc=1&_rdr#"><img src="images/facebook icon.jfif" alt="Facebook" /></a>
         <a href="https://t.me/GlamourNailandLash"><img src="images/telegram icon.jpg" alt="Telegram" /></a>
+        <a href="https://glamournailaddis@yahoo.com"><img src="images/gmail icon.jpg" alt="Gmail" /></a>
+         <a href="https://www.tiktok.com/@glamournail_lash?_t=ZM-8webdBQYj0K&_r=1"><img src="images/tiktok icon.png" alt="Tik Tok" /></a>
       </div>
     </div>
   </section>
